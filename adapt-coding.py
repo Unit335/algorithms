@@ -3,6 +3,9 @@ from decimal import Decimal
 import random, string, decimal
 import sys
 
+# Realisation of adaptive arithmetic coding for files
+
+
 def segmentation(alphabet): #alphabet: set of unique characters in message
     # Defining starting lenghts of segments
     p = Decimal(1)/Decimal(len(alphabet))
